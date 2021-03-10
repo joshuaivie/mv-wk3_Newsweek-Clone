@@ -1,6 +1,9 @@
 /* Import Google Fonts ======== */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
+/* Import Responsive CSS ============== */
+@import url('./mobile.css');
+
 body {
   background-color: #f4f5f6;
   color: #333;
@@ -120,17 +123,6 @@ a:hover {
   display: inline;
 }
 
-.footer-links {
-  /* padding-left: 5px;
-  border-left: 1px solid rgb(161, 158, 158); */
-}
-
 .icons i {
   font-size: 1.75em;
-}
-
-@media only screen and (max-width: 576px) {
-  .text-small {
-    font-size: 80%;
-  }
 }

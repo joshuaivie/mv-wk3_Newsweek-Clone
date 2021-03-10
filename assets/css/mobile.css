@@ -1,0 +1,10 @@
+@media only screen and (max-width: 576px) {
+  .text-small {
+    font-size: 80%;
+  }
+
+  .hamburger svg {
+    width: 20px;
+    height: 20px;
+  }
+}
