@@ -1,0 +1,132 @@
+/* Import Google Fonts ======== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body {
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  overflow-x: hidden;
+}
+
+a {
+  color: unset;
+}
+
+a:hover {
+  color: #f72210;
+}
+
+.bg-red {
+  background-color: #f72210 !important;
+}
+
+.header-date {
+  font-size: 16px;
+}
+
+.bg-bright-yellow {
+  background-color: #ffe400 !important;
+}
+
+.text-lighter-grey {
+  color: #666;
+}
+
+.bg-none {
+  background-color: transparent !important;
+}
+
+.subscribe-btn::after {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  margin-left: 6px;
+  transform: rotate(45deg);
+  border-top: solid 2px;
+  border-right: solid 2px;
+}
+
+.text-roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.content-container {
+  display: contents;
+}
+
+.header-bottom::after {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 66px;
+  background-color: #f72210;
+  border-top: 13px solid #f72210;
+  border-left: 12px solid #fff;
+}
+
+.header-search-box {
+  width: 60px;
+  top: 0;
+  padding-left: 5px;
+  font-weight: 300;
+  right: 102px;
+  transition: width ease-in-out 0.3s;
+  will-change: width;
+}
+
+.header-search-box:focus {
+  width: calc(100% - 102px);
+  outline: none;
+}
+
+.header-search-button {
+  top: 0;
+  right: 86px;
+}
+
+.main-nav {
+  font-size: 19px;
+  line-height: 14px;
+}
+
+.trending-nav {
+  font-size: 16px;
+  line-height: 16px;
+  color: #807f84;
+}
+
+.trending-nav .nav-link.active {
+  color: #333;
+}
+
+.footer-up {
+  display: inline;
+}
+
+.footer-links {
+  /* padding-left: 5px;
+  border-left: 1px solid rgb(161, 158, 158); */
+}
+
+.icons i {
+  font-size: 1.75em;
+}
+
+.fab {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  .text-small {
+    font-size: 80%;
+  }
+}
