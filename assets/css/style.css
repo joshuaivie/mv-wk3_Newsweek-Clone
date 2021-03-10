@@ -49,6 +49,14 @@ a:hover {
   border-right: solid 2px;
 }
 
+.brand {
+  max-width: 400px;
+}
+
+.left-0 {
+  left: 0 !important;
+}
+
 .text-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -119,10 +127,6 @@ a:hover {
 
 .icons i {
   font-size: 1.75em;
-}
-
-.fab {
-  margin-left: 15px;
 }
 
 @media only screen and (max-width: 576px) {
