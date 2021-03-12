@@ -29,13 +29,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Joshua Ivie**
 
-https://github.com/joshuaivie
-
-👤 **Author2**
-
-https://github.com/AbdelrahmanWaheed33
+- GitHub: [@joshuaivie](https://github.com/joshuaivie)
+- Twitter: [@joshuaivie\_](https://twitter.com/joshuaivie_)
+- LinkedIn: [joshuaivie](https://linkedin.com/in/joshuaivie)
 
 ## 🤝 Contributing
 
